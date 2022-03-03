@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/friends-app/static/css/main.1d743cff.css",
+    "main.js": "/friends-app/static/js/main.9f6bb9b5.js",
+    "static/js/787.e5c92c45.chunk.js": "/friends-app/static/js/787.e5c92c45.chunk.js",
+    "index.html": "/friends-app/index.html",
+    "main.1d743cff.css.map": "/friends-app/static/css/main.1d743cff.css.map",
+    "main.9f6bb9b5.js.map": "/friends-app/static/js/main.9f6bb9b5.js.map",
+    "787.e5c92c45.chunk.js.map": "/friends-app/static/js/787.e5c92c45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d743cff.css",
+    "static/js/main.9f6bb9b5.js"
+  ]
+}
