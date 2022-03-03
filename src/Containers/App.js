@@ -3,6 +3,7 @@ import CardList from '../Components/CardList';
 //import { friends } from './friends';
 import Search from '../Components/Search';
 import Scroll from '../Components/Scroll';
+import ErrorBoundry from '../Containers/ErrorBoundry';
 
 class App extends Component{
     constructor() {
@@ -37,7 +38,9 @@ class App extends Component{
         <h1 className='f1'>Friend List</h1>
         <Search searchUse={this.onSearchUse} />
         <Scroll>
+            <ErrorBoundry>
             <CardList friends={filteredFriends}/>
+            </ErrorBoundry>
         </Scroll>
         </div>
     );
